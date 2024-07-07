@@ -140,7 +140,7 @@ main section{
     align-items: center;
     gap: 50px;
 }
-.offer-section h2{
+.offer-section h2, .portfoli h2{
     font-size: 48px;
     font-family: "Merriweather", serif;
     margin-bottom: 20px;
@@ -153,4 +153,10 @@ main section{
     border: 8px solid #FF0000;
     border-radius: 50%;
     padding: 20px;
+}
+.images{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    flex-direction: row;
 }
