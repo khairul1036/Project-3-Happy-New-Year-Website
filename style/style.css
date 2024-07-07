@@ -186,3 +186,26 @@ main section{
     padding: 20px 40px;
     border-radius: 0px 50px 50px 0px;
 }
+
+/* footer style  */
+.footer{
+    background-color: #070211;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 140px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.icon-images{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.icon-images img{
+    margin-right: 20px;
+}
