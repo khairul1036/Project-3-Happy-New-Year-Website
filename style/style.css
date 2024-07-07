@@ -31,6 +31,9 @@ main section{
 .color-text2{
     color: #070211;
 }
+.color-text3{
+    color: #777777;
+}
 .btn-primary{
     font-weight: bold;
     font-size: 20px;
@@ -128,4 +131,26 @@ main section{
 }
 .meeting button{
     margin-top: 25px;
+}
+
+/* offer section style  */
+.offer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+.offer-section h2{
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    margin-bottom: 20px;
+}
+.secondary-subtitle{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.offer-image img{
+    border: 8px solid #FF0000;
+    border-radius: 50%;
+    padding: 20px;
 }
